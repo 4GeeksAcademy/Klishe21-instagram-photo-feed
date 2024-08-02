@@ -1,0 +1,44 @@
+*{
+    font-family: "Nanum Gothic Coding", monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+display: flex;
+justify-content: center;
+padding: 2rem;
+}
+body{
+background-color: antiquewhite;
+}
+.box{
+width: 500px;
+height: 450px;
+display: flex;
+flex-direction: column;
+margin: auto;
+background-color:rgb(247, 224, 193);
+border-radius: 1rem;
+margin-bottom: 2rem;
+}
+.box-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 1rem;
+box-sizing: border-box;
+}
+.box-img img{
+width: 500px;
+padding: 1rem;
+box-sizing: border-box;
+height: 300px;
+object-fit: contain;
+}
+.box-content{
+padding: 1rem;
+padding-top: 0;
+box-sizing: border-box;
+text-align: left;
+}
