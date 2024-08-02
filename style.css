@@ -32,6 +32,7 @@ box-sizing: border-box;
 .box-img img{
 width: 500px;
 padding: 1rem;
+padding-top: 0;
 box-sizing: border-box;
 height: 300px;
 object-fit: contain;
